@@ -12,12 +12,12 @@ namespace Elements.Geometry
         /// <summary>
         /// The start of the curve.
         /// </summary>
-        public virtual Vector3 Start { get; protected set; }
+        public virtual Vector3 Start { get; set; }
 
         /// <summary>
         /// The end of the curve.
         /// </summary>
-        public virtual Vector3 End { get; protected set; }
+        public virtual Vector3 End { get; set; }
 
         /// <summary>
         /// The domain of the curve.
